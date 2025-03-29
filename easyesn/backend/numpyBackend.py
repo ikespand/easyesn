@@ -13,6 +13,7 @@ multiply = np.multiply
 
 eigenval = np.linalg.eig
 
+seed = np.random.seed
 
 def ishermitian(A, tol=1e-6):
     x = sp.rand(A.shape[0], 1)
