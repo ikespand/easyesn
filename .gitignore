@@ -111,3 +111,5 @@ src\easyesn\dist\*
 
 .vs
 /src/.vs
+.DS_Store
+*/.DS_Store

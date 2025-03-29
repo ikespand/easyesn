@@ -11,12 +11,12 @@ DESCRIPTION = "Python library for Reservoir Computing using Echo State Networks"
 URL = "https://github.com/kalekiu/easyesn"
 EMAIL = "rzrolandzimmermann@gmail.com"
 AUTHOR = "Roland Zimmermann, Luca Thiede"
-REQUIRES_PYTHON = ">=3.6.0"
+REQUIRES_PYTHON = ">=3.10.0"
 LICENSE = "MIT"
 VERSION = None
 
 # What packages are required for this module to be executed?
-REQUIRED = ["numpy", "progressbar2", "dill", "multiprocess", "sklearn"]
+REQUIRED = ["numpy", "progressbar2", "dill", "multiprocess", "scikit-learn"]
 
 # The rest you shouldn't have to touch too much :)
 # ------------------------------------------------
@@ -102,7 +102,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Intended Audience :: Science/Research",
