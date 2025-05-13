@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import random
 import scipy as sp
-from scipy.sparse.linalg.eigen.arpack.arpack import ArpackNoConvergence
+from scipy.sparse.linalg import ArpackNoConvergence
 
 add = np.add
 
@@ -13,6 +13,7 @@ multiply = np.multiply
 
 eigenval = np.linalg.eig
 
+seed = np.random.seed
 
 def ishermitian(A, tol=1e-6):
     x = sp.rand(A.shape[0], 1)
